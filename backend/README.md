@@ -1,3 +1,2 @@
-# Strapi application
+# Backend for ecommerce application with admin panel
 
-A quick description of your strapi application
