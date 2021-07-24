@@ -1,1 +1,1 @@
-# Complete solution for Ecommerce portal with admin panele and front store
+# Complete solution for Ecommerce portal with admin panel and front store
