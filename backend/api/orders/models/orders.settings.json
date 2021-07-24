@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order_num": {
+      "type": "uid",
+      "required": true
+    },
+    "order_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "products": {
+      "collection": "product"
+    }
+  }
+}
